@@ -47,10 +47,12 @@ dependencies {
     androidTestImplementation 'androidx.test.ext:junit:1.1.3'
     androidTestImplementation 'androidx.test.espresso:espresso-core:3.4.0'
 
-    implementation "com.squareup.retrofi2:retrofit:$retrofit_version"
-    implementation "com.squareup.retrofi2:converter-gson:$retrofit_version"
-    implementation "com.squareup.retrofi2:adapter-rxjava2:$retrofit_version"
+    implementation "com.squareup.retrofit2:retrofit:$retrofit_version"
+    implementation "com.squareup.retrofit2:converter-gson:$retrofit_version"
+    implementation "com.squareup.retrofit2:adapter-rxjava2:$retrofit_version"
 
     implementation "io.reactivex.rxjava2:rxjava:$rxJava_version"
     implementation "io.reactivex.rxjava2:rxandroid:$rxJava_version"
+
+    implementation "androidx.swiperefreshlayout:swiperefreshlayout:1.1.0"
 }
